@@ -1,0 +1,36 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background-color:#a79028
+    
+  
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+nav h1{
+    color: aliceblue;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+
+}
+
+ul li{
+    margin: 12px;
+}
+
+header{
+    color: aliceblue;
+}
+
+header a{
+    color: red;
+}
