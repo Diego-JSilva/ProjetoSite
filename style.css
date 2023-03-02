@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@900&display=swap');
 
 /* o "*" seria refrente aos espacamentos entre os elementos */
 
@@ -14,7 +13,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: url(fundo.jpg);
+    background-image: url(./inicio.jpg);
     background-size: cover;
     height: 100vh;
     padding-top: 12.5rem;
@@ -42,14 +41,50 @@ h2 {
 a {
     margin: 10px;
     padding: 10px;
-    color: #fff;
+    color: #000;
     font-size: 1.5rem;
     font-family: 'Poppins';
     text-transform: uppercase;
     /* para deixa tudo em letra maiscula! */
     text-decoration: none;
-    background: linear-gradient(90deg, #799e40, #516b30 );
+    background: linear-gradient(90deg, #fff, #fff );
     padding: 1rem 2rem;
     border-radius: 7px;
 }
 
+/* como deixa redondo*/
+
+img {
+    border-radius: 50%;
+    /* se a imagem for muito grande usar */
+    width: 300px;
+    height: 300px;
+}
+
+/* flex box*/
+section{
+    display: flex;
+    gap: 2rem;
+    padding: 7rem;
+    background-image: url(./fundo.jpg);
+
+    
+}
+
+div {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+   
+     
+
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Montserrat';
+}
